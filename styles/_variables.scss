@@ -1,0 +1,55 @@
+:root {
+  --primary-color: #4D6BB9;
+  --secondary-color: #FFFFFF;
+  --text-color-about: #4F4F4F;
+  --text-color-services: #404C6B;
+  --link-bg-color: #EFD063;
+  --link-color: #333333;
+  --title-services-color: #294283;
+  --background-footer: #F2F2F2;
+  --input-bg-color: #9FB1DE;
+
+  --font-weight: 800;
+  --font-weight-link: 700;
+  --font-weight-text: 600;
+  --line-height-text: 17px;
+
+  --headers-font-size: 32px;
+  --headers-line-height: 17px;
+  --font-size-title-span: 15px;
+  --letter-spacing: 0.33em;
+  --header-height: 450px;
+  --font-size-text: 8px;
+  --p-width: 200px;
+  --top-family: 40%;
+  --width-wrapper: 1024px;
+  --margin-top-services: 70px;
+  --margin-top-footer: 650px;
+
+  @media screen and (min-width: 1440px) {
+    --headers-font-size: 46px;
+    --headers-line-height: 24px;
+    --font-size-title-span: 20px;
+    --letter-spacing: 0.41em;
+    --header-height: 637px;
+    --font-size-text: 11px;
+    --p-width: 280px;
+    --top-family: 55%;
+    --width-wrapper: 1440px;
+    --margin-top-services: 200px;
+    --margin-top-footer: 590px;
+  }
+  @media screen and (min-width: 1900px) {
+    --headers-font-size: 60px;
+    --headers-line-height: 32px;
+    --font-size-title-span: 27px;
+    --letter-spacing: 0.37em;
+    --header-height: 838px;
+    --font-size-text: 14px;
+    --p-width: 370px;
+    --top-family: 70%;
+    --width-wrapper: 1900px;
+    --margin-top-services: 400px;
+    --margin-top-footer: 600px;
+  }
+}
